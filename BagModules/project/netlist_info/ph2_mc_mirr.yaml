@@ -1,0 +1,100 @@
+lib_name: project
+cell_name: ph2_mc_mirr
+pins: [  ]
+instances:
+  I8:
+    lib_name: analogLib
+    cell_name: gnd
+    instpins:
+      gnd!:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+  I7:
+    lib_name: analogLib
+    cell_name: gnd
+    instpins:
+      gnd!:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+  I5:
+    lib_name: analogLib
+    cell_name: gnd
+    instpins:
+      gnd!:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+  I4:
+    lib_name: analogLib
+    cell_name: gnd
+    instpins:
+      gnd!:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+  M1:
+    lib_name: BAG_prim
+    cell_name: nmos4_lvt
+    instpins:
+      S:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: "VG"
+        num_bits: 1
+      B:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: "VG"
+        num_bits: 1
+  M2:
+    lib_name: BAG_prim
+    cell_name: nmos4_lvt
+    instpins:
+      S:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: "VD"
+        num_bits: 1
+      B:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: "VG"
+        num_bits: 1
+  Vd:
+    lib_name: analogLib
+    cell_name: vdc
+    instpins:
+      PLUS:
+        direction: inputOutput
+        net_name: "VD"
+        num_bits: 1
+      MINUS:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+  Vg:
+    lib_name: analogLib
+    cell_name: vdc
+    instpins:
+      PLUS:
+        direction: inputOutput
+        net_name: "VG"
+        num_bits: 1
+      MINUS:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1

@@ -1,0 +1,1856 @@
+<?xml version="1.0"?>
+<setupdb version="6">data
+	<active>Active Setup
+		<corners>
+			<corner enabled="1">_default</corner>
+		</corners>
+		<extensions>
+			<extension>Parasitics
+				<callback>_parSetupDBExtensionCB</callback>
+				<iconvalue></iconvalue>
+				<icontype></icontype>
+			</extension>
+		</extensions>
+		<currentmode>Single Run, Sweeps and Corners</currentmode>
+		<overwritehistory>0</overwritehistory>
+		<tests>
+			<test>project:ph2_sa:1
+				<tool>ADE</tool>
+				<tooloptions>
+					<option>cell
+						<value>ph2_sa</value>
+					</option>
+					<option>lib
+						<value>project</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR/test_states</value>
+					</option>
+					<option>state
+						<value>project:ph2_sa:1_active</value>
+					</option>
+				</tooloptions>
+				<origoptions>
+					<option>cell
+						<value>ph2_sa</value>
+					</option>
+					<option>lib
+						<value>project</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+				</origoptions>
+			</test>
+		</tests>
+		<vars>
+			<var>vdd
+				<value>1.2</value>
+				<dependentTests>
+					<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>vin_cm
+				<value>0.6</value>
+				<dependentTests>
+					<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>vamp
+				<value>10m</value>
+				<dependentTests>
+					<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>cff
+				<value>5f</value>
+				<dependentTests>
+					<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>tper
+				<value>200p</value>
+				<dependentTests>
+					<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>tr
+				<value>20p</value>
+				<dependentTests>
+					<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>tsu
+				<value>30p</value>
+				<dependentTests>
+					<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>nfpc
+				<value>2</value>
+				<dependentTests>
+					<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>nfd
+				<value>24</value>
+				<dependentTests>
+					<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>nft
+				<value>24</value>
+				<dependentTests>
+					<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>nfn
+				<value>5</value>
+				<dependentTests>
+					<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>ratio_pn
+				<value>1</value>
+				<dependentTests>
+					<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>nfp
+				<value>nfn * ratio_pn</value>
+				<dependentTests>
+					<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+				</dependentTests>
+			</var>
+		</vars>
+		<overwritehistoryname>Interactive.0</overwritehistoryname>
+		<plottingoptions>
+			<plottingoption>plottype
+				<value>None</value>
+			</plottingoption>
+			<plottingoption>usewaveformtemplate
+				<value>no</value>
+			</plottingoption>
+			<plottingoption>waveformtemplate
+				<value></value>
+			</plottingoption>
+			<plottingoption>allplottingtemplates
+				<value></value>
+			</plottingoption>
+			<plottingoption>defaultplottingtemplate
+				<value></value>
+			</plottingoption>
+		</plottingoptions>
+	</active>
+	<history>History
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.2
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>project:ph2_sa:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ph2_sa</value>
+							</option>
+							<option>lib
+								<value>project</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>project:ph2_sa:1_none_Interactive.2</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>ph2_sa</value>
+							</option>
+							<option>lib
+								<value>project</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>cff
+						<value>5f</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>nfd
+						<value>13</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>nfn
+						<value>2</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>nfp
+						<value>2</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>nfpc
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>nft
+						<value>13</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>tper
+						<value>200p</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>tr
+						<value>20p</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>vamp
+						<value>20m</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>vdd
+						<value>1.2</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>vin_cm
+						<value>0.6</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>tsu
+						<value>30p</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>ratio_pn
+						<value>0.5</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Apr 15 22:32:19 2018</timestamp>
+			<resultsname>/home/aa/users/jbdoong/ee240b/hw_solns_workspace/bag_workspace_gpdk045/project/ph2_sa/adexl/results/data/Interactive.2.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.2.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/hpse-14.EECS.Berkeley.EDU_jbdoong_223219819</localpsfdir>
+			<psfdir>/home/aa/users/jbdoong/simulation/project/ph2_sa/adexl/results/data/Interactive.2</psfdir>
+			<simdir>$AXL_PROJECT_DIR/project/ph2_sa/adexl/results/data/Interactive.2</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/aa/users/jbdoong/ee240b/hw_solns_workspace/bag_workspace_gpdk045/project/ph2_sa/adexl/results/data/Interactive.2.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.2.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.3
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>project:ph2_sa:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ph2_sa</value>
+							</option>
+							<option>lib
+								<value>project</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>project:ph2_sa:1_none_Interactive.3</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>ph2_sa</value>
+							</option>
+							<option>lib
+								<value>project</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>cff
+						<value>5f</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>nfd
+						<value>13</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>nfn
+						<value>2</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>nfp
+						<value>2</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>nfpc
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>nft
+						<value>13</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>tper
+						<value>200p</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>tr
+						<value>20p</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>vamp
+						<value>20m</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>vdd
+						<value>1.2</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>vin_cm
+						<value>0.6</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>tsu
+						<value>30p</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>ratio_pn
+						<value>0.5</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Apr 15 22:45:07 2018</timestamp>
+			<resultsname>/home/aa/users/jbdoong/ee240b/hw_solns_workspace/bag_workspace_gpdk045/project/ph2_sa/adexl/results/data/Interactive.3.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.3.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/hpse-14.EECS.Berkeley.EDU_jbdoong_224507630</localpsfdir>
+			<psfdir>/home/aa/users/jbdoong/simulation/project/ph2_sa/adexl/results/data/Interactive.3</psfdir>
+			<simdir>$AXL_PROJECT_DIR/project/ph2_sa/adexl/results/data/Interactive.3</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/aa/users/jbdoong/ee240b/hw_solns_workspace/bag_workspace_gpdk045/project/ph2_sa/adexl/results/data/Interactive.3.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.3.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.4
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>project:ph2_sa:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ph2_sa</value>
+							</option>
+							<option>lib
+								<value>project</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>project:ph2_sa:1_none_Interactive.4</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>ph2_sa</value>
+							</option>
+							<option>lib
+								<value>project</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>cff
+						<value>5f</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>nfd
+						<value>13</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>nfn
+						<value>2</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>nfp
+						<value>2</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>nfpc
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>nft
+						<value>13</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>tper
+						<value>200p</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>tr
+						<value>20p</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>vamp
+						<value>20m</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>vdd
+						<value>1.2</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>vin_cm
+						<value>0.6</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>tsu
+						<value>30p</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>ratio_pn
+						<value>0.5</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Apr 15 22:47:01 2018</timestamp>
+			<resultsname>/home/aa/users/jbdoong/ee240b/hw_solns_workspace/bag_workspace_gpdk045/project/ph2_sa/adexl/results/data/Interactive.4.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.4.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/hpse-14.EECS.Berkeley.EDU_jbdoong_224701124</localpsfdir>
+			<psfdir>/home/aa/users/jbdoong/simulation/project/ph2_sa/adexl/results/data/Interactive.4</psfdir>
+			<simdir>$AXL_PROJECT_DIR/project/ph2_sa/adexl/results/data/Interactive.4</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/aa/users/jbdoong/ee240b/hw_solns_workspace/bag_workspace_gpdk045/project/ph2_sa/adexl/results/data/Interactive.4.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.4.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.5
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>project:ph2_sa:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ph2_sa</value>
+							</option>
+							<option>lib
+								<value>project</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>project:ph2_sa:1_none_Interactive.5</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>ph2_sa</value>
+							</option>
+							<option>lib
+								<value>project</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>cff
+						<value>5f</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>nfd
+						<value>13</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>nfn
+						<value>2</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>nfp
+						<value>2</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>nfpc
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>nft
+						<value>13</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>tper
+						<value>200p</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>tr
+						<value>20p</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>vamp
+						<value>20m</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>vdd
+						<value>1.2</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>vin_cm
+						<value>0.6</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>tsu
+						<value>30p</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>ratio_pn
+						<value>0.5</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Apr 15 22:52:41 2018</timestamp>
+			<resultsname>/home/aa/users/jbdoong/ee240b/hw_solns_workspace/bag_workspace_gpdk045/project/ph2_sa/adexl/results/data/Interactive.5.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.5.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/hpse-14.EECS.Berkeley.EDU_jbdoong_225241137</localpsfdir>
+			<psfdir>/home/aa/users/jbdoong/simulation/project/ph2_sa/adexl/results/data/Interactive.5</psfdir>
+			<simdir>$AXL_PROJECT_DIR/project/ph2_sa/adexl/results/data/Interactive.5</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/aa/users/jbdoong/ee240b/hw_solns_workspace/bag_workspace_gpdk045/project/ph2_sa/adexl/results/data/Interactive.5.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.5.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.6
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>project:ph2_sa:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ph2_sa</value>
+							</option>
+							<option>lib
+								<value>project</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>project:ph2_sa:1_none_Interactive.6</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>ph2_sa</value>
+							</option>
+							<option>lib
+								<value>project</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>cff
+						<value>5f</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>nfd
+						<value>20</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>nfn
+						<value>5</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>nfp
+						<value>nfn * ratio_pn</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>nfpc
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>nft
+						<value>20</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>tper
+						<value>200p</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>tr
+						<value>20p</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>vamp
+						<value>10m</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>vdd
+						<value>1.2</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>vin_cm
+						<value>0.6</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>tsu
+						<value>30p</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>ratio_pn
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Apr 15 23:18:26 2018</timestamp>
+			<resultsname>/home/aa/users/jbdoong/ee240b/hw_solns_workspace/bag_workspace_gpdk045/project/ph2_sa/adexl/results/data/Interactive.6.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.6.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/hpse-14.EECS.Berkeley.EDU_jbdoong_231826143</localpsfdir>
+			<psfdir>/home/aa/users/jbdoong/simulation/project/ph2_sa/adexl/results/data/Interactive.6</psfdir>
+			<simdir>$AXL_PROJECT_DIR/project/ph2_sa/adexl/results/data/Interactive.6</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/aa/users/jbdoong/ee240b/hw_solns_workspace/bag_workspace_gpdk045/project/ph2_sa/adexl/results/data/Interactive.6.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.6.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.7
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>project:ph2_sa:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ph2_sa</value>
+							</option>
+							<option>lib
+								<value>project</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>project:ph2_sa:1_none_Interactive.7</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>ph2_sa</value>
+							</option>
+							<option>lib
+								<value>project</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>vdd
+						<value>1.2</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>vin_cm
+						<value>0.6</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>vamp
+						<value>10m</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cff
+						<value>5f</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>tper
+						<value>200p</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>tr
+						<value>20p</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>tsu
+						<value>30p</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>nfpc
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>nfd
+						<value>21</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>nft
+						<value>21</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>nfn
+						<value>5</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>ratio_pn
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>nfp
+						<value>nfn * ratio_pn</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Apr 16 01:12:11 2018</timestamp>
+			<resultsname>/home/aa/users/jbdoong/ee240b/hw_solns_workspace/bag_workspace_gpdk045/project/ph2_sa/adexl/results/data/Interactive.7.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.7.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/hpse-14.EECS.Berkeley.EDU_jbdoong_011211038</localpsfdir>
+			<psfdir>/home/aa/users/jbdoong/simulation/project/ph2_sa/adexl/results/data/Interactive.7</psfdir>
+			<simdir>$AXL_PROJECT_DIR/project/ph2_sa/adexl/results/data/Interactive.7</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/aa/users/jbdoong/ee240b/hw_solns_workspace/bag_workspace_gpdk045/project/ph2_sa/adexl/results/data/Interactive.7.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.7.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.8
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>project:ph2_sa:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ph2_sa</value>
+							</option>
+							<option>lib
+								<value>project</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>project:ph2_sa:1_none_Interactive.8</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>ph2_sa</value>
+							</option>
+							<option>lib
+								<value>project</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>vdd
+						<value>1.2</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>vin_cm
+						<value>0.6</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>vamp
+						<value>10m</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cff
+						<value>5f</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>tper
+						<value>200p</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>tr
+						<value>20p</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>tsu
+						<value>30p</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>nfpc
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>nfd
+						<value>20</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>nft
+						<value>20</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>nfn
+						<value>5</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>ratio_pn
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>nfp
+						<value>nfn * ratio_pn</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Apr 16 01:52:53 2018</timestamp>
+			<resultsname>/home/aa/users/jbdoong/ee240b/hw_solns_workspace/bag_workspace_gpdk045/project/ph2_sa/adexl/results/data/Interactive.8.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.8.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/hpse-14.EECS.Berkeley.EDU_jbdoong_015253499</localpsfdir>
+			<psfdir>/home/aa/users/jbdoong/simulation/project/ph2_sa/adexl/results/data/Interactive.8</psfdir>
+			<simdir>$AXL_PROJECT_DIR/project/ph2_sa/adexl/results/data/Interactive.8</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/aa/users/jbdoong/ee240b/hw_solns_workspace/bag_workspace_gpdk045/project/ph2_sa/adexl/results/data/Interactive.8.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.8.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.9
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>project:ph2_sa:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ph2_sa</value>
+							</option>
+							<option>lib
+								<value>project</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>project:ph2_sa:1_none_Interactive.9</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>ph2_sa</value>
+							</option>
+							<option>lib
+								<value>project</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>vdd
+						<value>1.2</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>vin_cm
+						<value>0.6</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>vamp
+						<value>10m</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cff
+						<value>5f</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>tper
+						<value>200p</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>tr
+						<value>20p</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>tsu
+						<value>30p</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>nfpc
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>nfd
+						<value>21</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>nft
+						<value>21</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>nfn
+						<value>5</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>ratio_pn
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>nfp
+						<value>nfn * ratio_pn</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Apr 16 01:53:42 2018</timestamp>
+			<resultsname>/home/aa/users/jbdoong/ee240b/hw_solns_workspace/bag_workspace_gpdk045/project/ph2_sa/adexl/results/data/Interactive.9.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.9.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/hpse-14.EECS.Berkeley.EDU_jbdoong_015342101</localpsfdir>
+			<psfdir>/home/aa/users/jbdoong/simulation/project/ph2_sa/adexl/results/data/Interactive.9</psfdir>
+			<simdir>$AXL_PROJECT_DIR/project/ph2_sa/adexl/results/data/Interactive.9</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/aa/users/jbdoong/ee240b/hw_solns_workspace/bag_workspace_gpdk045/project/ph2_sa/adexl/results/data/Interactive.9.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.9.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.10
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>project:ph2_sa:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ph2_sa</value>
+							</option>
+							<option>lib
+								<value>project</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>project:ph2_sa:1_none_Interactive.10</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>ph2_sa</value>
+							</option>
+							<option>lib
+								<value>project</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>vdd
+						<value>1.2</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>vin_cm
+						<value>0.6</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>vamp
+						<value>10m</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cff
+						<value>5f</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>tper
+						<value>200p</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>tr
+						<value>20p</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>tsu
+						<value>30p</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>nfpc
+						<value>2</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>nfd
+						<value>24</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>nft
+						<value>24</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>nfn
+						<value>5</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>ratio_pn
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>nfp
+						<value>nfn * ratio_pn</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Apr 16 02:09:30 2018</timestamp>
+			<resultsname>/home/aa/users/jbdoong/ee240b/hw_solns_workspace/bag_workspace_gpdk045/project/ph2_sa/adexl/results/data/Interactive.10.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.10.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/hpse-14.EECS.Berkeley.EDU_jbdoong_020930164</localpsfdir>
+			<psfdir>/home/aa/users/jbdoong/simulation/project/ph2_sa/adexl/results/data/Interactive.10</psfdir>
+			<simdir>$AXL_PROJECT_DIR/project/ph2_sa/adexl/results/data/Interactive.10</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/aa/users/jbdoong/ee240b/hw_solns_workspace/bag_workspace_gpdk045/project/ph2_sa/adexl/results/data/Interactive.10.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.10.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.11
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>project:ph2_sa:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ph2_sa</value>
+							</option>
+							<option>lib
+								<value>project</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>project:ph2_sa:1_none_Interactive.11</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>ph2_sa</value>
+							</option>
+							<option>lib
+								<value>project</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>vdd
+						<value>1.2</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>vin_cm
+						<value>0.6</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>vamp
+						<value>10m</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cff
+						<value>5f</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>tper
+						<value>200p</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>tr
+						<value>20p</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>tsu
+						<value>30p</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>nfpc
+						<value>2</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>nfd
+						<value>24</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>nft
+						<value>24</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>nfn
+						<value>5</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>ratio_pn
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>nfp
+						<value>nfn * ratio_pn</value>
+						<dependentTests>
+							<dependentTest omitted="0">project:ph2_sa:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Apr 16 11:13:08 2018</timestamp>
+			<resultsname>/home/aa/users/jbdoong/ee240b/hw_solns_workspace/bag_workspace_gpdk045/project/ph2_sa/adexl/results/data/Interactive.11.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.11.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/hpse-14.EECS.Berkeley.EDU_jbdoong_111308203</localpsfdir>
+			<psfdir>/home/aa/users/jbdoong/simulation/project/ph2_sa/adexl/results/data/Interactive.11</psfdir>
+			<simdir>$AXL_PROJECT_DIR/project/ph2_sa/adexl/results/data/Interactive.11</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/aa/users/jbdoong/ee240b/hw_solns_workspace/bag_workspace_gpdk045/project/ph2_sa/adexl/results/data/Interactive.11.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.11.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+	</history>
+</setupdb>

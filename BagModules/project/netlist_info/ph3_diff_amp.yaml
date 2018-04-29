@@ -1,0 +1,296 @@
+lib_name: project
+cell_name: ph3_diff_amp
+pins: [  ]
+instances:
+  M5:
+    lib_name: BAG_prim
+    cell_name: nmos4_standard
+    instpins:
+      S:
+        direction: inputOutput
+        net_name: "net011"
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: "net8"
+        num_bits: 1
+      B:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: "vin_cm_net"
+        num_bits: 1
+  M4:
+    lib_name: BAG_prim
+    cell_name: nmos4_standard
+    instpins:
+      S:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: "net011"
+        num_bits: 1
+      B:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: "net8"
+        num_bits: 1
+  R2:
+    lib_name: analogLib
+    cell_name: res
+    instpins:
+      MINUS:
+        direction: inputOutput
+        net_name: "vop_net"
+        num_bits: 1
+      PLUS:
+        direction: inputOutput
+        net_name: "vdd_net"
+        num_bits: 1
+  R1:
+    lib_name: analogLib
+    cell_name: res
+    instpins:
+      MINUS:
+        direction: inputOutput
+        net_name: "vom_net"
+        num_bits: 1
+      PLUS:
+        direction: inputOutput
+        net_name: "vdd_net"
+        num_bits: 1
+  I13:
+    lib_name: analogLib
+    cell_name: gnd
+    instpins:
+      gnd!:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+  I11:
+    lib_name: analogLib
+    cell_name: gnd
+    instpins:
+      gnd!:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+  I9:
+    lib_name: analogLib
+    cell_name: gnd
+    instpins:
+      gnd!:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+  I8:
+    lib_name: analogLib
+    cell_name: gnd
+    instpins:
+      gnd!:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+  I5:
+    lib_name: analogLib
+    cell_name: gnd
+    instpins:
+      gnd!:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+  I4:
+    lib_name: analogLib
+    cell_name: gnd
+    instpins:
+      gnd!:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+  I1:
+    lib_name: analogLib
+    cell_name: gnd
+    instpins:
+      gnd!:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+  I0:
+    lib_name: analogLib
+    cell_name: gnd
+    instpins:
+      gnd!:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+  vin_src:
+    lib_name: analogLib
+    cell_name: vdc
+    instpins:
+      PLUS:
+        direction: inputOutput
+        net_name: "vin_net"
+        num_bits: 1
+      MINUS:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+  vb_src:
+    lib_name: analogLib
+    cell_name: vdc
+    instpins:
+      PLUS:
+        direction: inputOutput
+        net_name: "vin_cm_net"
+        num_bits: 1
+      MINUS:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+  vdd_src:
+    lib_name: analogLib
+    cell_name: vdc
+    instpins:
+      PLUS:
+        direction: inputOutput
+        net_name: "vdd_net"
+        num_bits: 1
+      MINUS:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+  M3:
+    lib_name: BAG_prim
+    cell_name: nmos4_lvt
+    instpins:
+      S:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: "net021"
+        num_bits: 1
+      B:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: "net8"
+        num_bits: 1
+  M2:
+    lib_name: BAG_prim
+    cell_name: nmos4_lvt
+    instpins:
+      S:
+        direction: inputOutput
+        net_name: "vs_net"
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: "vop_net"
+        num_bits: 1
+      B:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: "vim_net"
+        num_bits: 1
+  M1:
+    lib_name: BAG_prim
+    cell_name: nmos4_lvt
+    instpins:
+      S:
+        direction: inputOutput
+        net_name: "vs_net"
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: "vom_net"
+        num_bits: 1
+      B:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: "vip_net"
+        num_bits: 1
+  I10:
+    lib_name: analogLib
+    cell_name: ideal_balun
+    instpins:
+      c:
+        direction: inputOutput
+        net_name: "vin_cm_net"
+        num_bits: 1
+      d:
+        direction: inputOutput
+        net_name: "vin_net"
+        num_bits: 1
+      n:
+        direction: inputOutput
+        net_name: "vim_net"
+        num_bits: 1
+      p:
+        direction: inputOutput
+        net_name: "vip_net"
+        num_bits: 1
+  IB2:
+    lib_name: analogLib
+    cell_name: idc
+    instpins:
+      PLUS:
+        direction: inputOutput
+        net_name: "vs_net"
+        num_bits: 1
+      MINUS:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+  IB:
+    lib_name: analogLib
+    cell_name: idc
+    instpins:
+      PLUS:
+        direction: inputOutput
+        net_name: "vdd_net"
+        num_bits: 1
+      MINUS:
+        direction: inputOutput
+        net_name: "net8"
+        num_bits: 1
+  C2:
+    lib_name: analogLib
+    cell_name: cap
+    instpins:
+      MINUS:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+      PLUS:
+        direction: inputOutput
+        net_name: "vop_net"
+        num_bits: 1
+  C1:
+    lib_name: analogLib
+    cell_name: cap
+    instpins:
+      MINUS:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+      PLUS:
+        direction: inputOutput
+        net_name: "vom_net"
+        num_bits: 1

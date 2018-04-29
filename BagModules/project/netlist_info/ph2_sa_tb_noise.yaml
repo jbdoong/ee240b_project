@@ -1,0 +1,352 @@
+lib_name: project
+cell_name: ph2_sa_tb_noise
+pins: [  ]
+instances:
+  S2:
+    lib_name: BAG_prim
+    cell_name: pmos4_lvt
+    instpins:
+      S:
+        direction: inputOutput
+        net_name: "vdd_net"
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: "net7"
+        num_bits: 1
+      B:
+        direction: inputOutput
+        net_name: "vdd_net"
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: "clk_net"
+        num_bits: 1
+  S4:
+    lib_name: BAG_prim
+    cell_name: pmos4_lvt
+    instpins:
+      S:
+        direction: inputOutput
+        net_name: "vdd_net"
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: "vop_net"
+        num_bits: 1
+      B:
+        direction: inputOutput
+        net_name: "vdd_net"
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: "clk_net"
+        num_bits: 1
+  S3:
+    lib_name: BAG_prim
+    cell_name: pmos4_lvt
+    instpins:
+      S:
+        direction: inputOutput
+        net_name: "vdd_net"
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: "vom_net"
+        num_bits: 1
+      B:
+        direction: inputOutput
+        net_name: "vdd_net"
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: "clk_net"
+        num_bits: 1
+  S1:
+    lib_name: BAG_prim
+    cell_name: pmos4_lvt
+    instpins:
+      S:
+        direction: inputOutput
+        net_name: "vdd_net"
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: "net10"
+        num_bits: 1
+      B:
+        direction: inputOutput
+        net_name: "vdd_net"
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: "clk_net"
+        num_bits: 1
+  M6:
+    lib_name: BAG_prim
+    cell_name: pmos4_lvt
+    instpins:
+      S:
+        direction: inputOutput
+        net_name: "vdd_net"
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: "vop_net"
+        num_bits: 1
+      B:
+        direction: inputOutput
+        net_name: "vdd_net"
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: "vom_net"
+        num_bits: 1
+  M5:
+    lib_name: BAG_prim
+    cell_name: pmos4_lvt
+    instpins:
+      S:
+        direction: inputOutput
+        net_name: "vdd_net"
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: "vom_net"
+        num_bits: 1
+      B:
+        direction: inputOutput
+        net_name: "vdd_net"
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: "vop_net"
+        num_bits: 1
+  M7:
+    lib_name: BAG_prim
+    cell_name: nmos4_lvt
+    instpins:
+      S:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: "net6"
+        num_bits: 1
+      B:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: "clk_net"
+        num_bits: 1
+  M2:
+    lib_name: BAG_prim
+    cell_name: nmos4_lvt
+    instpins:
+      S:
+        direction: inputOutput
+        net_name: "net6"
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: "net7"
+        num_bits: 1
+      B:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: "vim_net"
+        num_bits: 1
+  M1:
+    lib_name: BAG_prim
+    cell_name: nmos4_lvt
+    instpins:
+      S:
+        direction: inputOutput
+        net_name: "net6"
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: "net10"
+        num_bits: 1
+      B:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: "vip_net"
+        num_bits: 1
+  M4:
+    lib_name: BAG_prim
+    cell_name: nmos4_lvt
+    instpins:
+      S:
+        direction: inputOutput
+        net_name: "net7"
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: "vop_net"
+        num_bits: 1
+      B:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: "vom_net"
+        num_bits: 1
+  M3:
+    lib_name: BAG_prim
+    cell_name: nmos4_lvt
+    instpins:
+      S:
+        direction: inputOutput
+        net_name: "net10"
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: "vom_net"
+        num_bits: 1
+      B:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: "vop_net"
+        num_bits: 1
+  I6:
+    lib_name: analogLib
+    cell_name: gnd
+    instpins:
+      gnd!:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+  I5:
+    lib_name: analogLib
+    cell_name: gnd
+    instpins:
+      gnd!:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+  I4:
+    lib_name: analogLib
+    cell_name: gnd
+    instpins:
+      gnd!:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+  I3:
+    lib_name: analogLib
+    cell_name: gnd
+    instpins:
+      gnd!:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+  I2:
+    lib_name: analogLib
+    cell_name: gnd
+    instpins:
+      gnd!:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+  I1:
+    lib_name: analogLib
+    cell_name: gnd
+    instpins:
+      gnd!:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+  I0:
+    lib_name: analogLib
+    cell_name: gnd
+    instpins:
+      gnd!:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+  vdd_src:
+    lib_name: analogLib
+    cell_name: vdc
+    instpins:
+      PLUS:
+        direction: inputOutput
+        net_name: "vdd_net"
+        num_bits: 1
+      MINUS:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+  vip_src:
+    lib_name: analogLib
+    cell_name: vpulse
+    instpins:
+      PLUS:
+        direction: inputOutput
+        net_name: "vip_net"
+        num_bits: 1
+      MINUS:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+  vim_src:
+    lib_name: analogLib
+    cell_name: vpulse
+    instpins:
+      PLUS:
+        direction: inputOutput
+        net_name: "vim_net"
+        num_bits: 1
+      MINUS:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+  clk_src:
+    lib_name: analogLib
+    cell_name: vpulse
+    instpins:
+      PLUS:
+        direction: inputOutput
+        net_name: "clk_net"
+        num_bits: 1
+      MINUS:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+  C2:
+    lib_name: analogLib
+    cell_name: cap
+    instpins:
+      MINUS:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+      PLUS:
+        direction: inputOutput
+        net_name: "vom_net"
+        num_bits: 1
+  C1:
+    lib_name: analogLib
+    cell_name: cap
+    instpins:
+      MINUS:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+      PLUS:
+        direction: inputOutput
+        net_name: "vop_net"
+        num_bits: 1

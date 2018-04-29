@@ -71,7 +71,7 @@ measurements:
       vgs_num: 30
       wrapper_type: ''
 rcx_params: {}
-root_dir: /home/aa/users/erichang/ee240b/bag_workspace_gpdk045/data/mos_char_pch
+root_dir: /home/aa/users/jbdoong/ee240b/hw_solns_workspace/bag_workspace_gpdk045/data/mos_char_pch
 routing_grid:
   bot_dir: x
   layers: [4, 5]

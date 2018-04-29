@@ -1,0 +1,1 @@
+"_EXPR_4" (tran_stop fields "6 * (VAR(\"tper\") - VAR(\"tsu\"))")

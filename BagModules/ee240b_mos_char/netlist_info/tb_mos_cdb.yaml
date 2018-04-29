@@ -1,0 +1,164 @@
+lib_name: ee240b_mos_char
+cell_name: tb_mos_cdb
+pins: [  ]
+instances:
+  VGND:
+    lib_name: analogLib
+    cell_name: vdc
+    instpins:
+      PLUS:
+        direction: inputOutput
+        net_name: "VSS"
+        num_bits: 1
+      MINUS:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+  VGS:
+    lib_name: analogLib
+    cell_name: vdc
+    instpins:
+      PLUS:
+        direction: inputOutput
+        net_name: "vbias"
+        num_bits: 1
+      MINUS:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+  VDS:
+    lib_name: analogLib
+    cell_name: vdc
+    instpins:
+      PLUS:
+        direction: inputOutput
+        net_name: "vg"
+        num_bits: 1
+      MINUS:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+  I4:
+    lib_name: analogLib
+    cell_name: gnd
+    instpins:
+      gnd!:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+  I2:
+    lib_name: analogLib
+    cell_name: gnd
+    instpins:
+      gnd!:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+  I1:
+    lib_name: analogLib
+    cell_name: gnd
+    instpins:
+      gnd!:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+  I0:
+    lib_name: analogLib
+    cell_name: gnd
+    instpins:
+      gnd!:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+  G1:
+    lib_name: analogLib
+    cell_name: vccs
+    instpins:
+      NC+:
+        direction: inputOutput
+        net_name: "vbias"
+        num_bits: 1
+      NC-:
+        direction: inputOutput
+        net_name: "vd"
+        num_bits: 1
+      PLUS:
+        direction: inputOutput
+        net_name: "VSS"
+        num_bits: 1
+      MINUS:
+        direction: inputOutput
+        net_name: "vout"
+        num_bits: 1
+  G0:
+    lib_name: analogLib
+    cell_name: vccs
+    instpins:
+      NC+:
+        direction: inputOutput
+        net_name: "vbias"
+        num_bits: 1
+      NC-:
+        direction: inputOutput
+        net_name: "vd"
+        num_bits: 1
+      PLUS:
+        direction: inputOutput
+        net_name: "VSS"
+        num_bits: 1
+      MINUS:
+        direction: inputOutput
+        net_name: "vd"
+        num_bits: 1
+  NM0:
+    lib_name: BAG_prim
+    cell_name: nmos4_lvt
+    instpins:
+      D:
+        direction: inputOutput
+        net_name: "vout"
+        num_bits: 1
+      B:
+        direction: inputOutput
+        net_name: "VSS"
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: "vg"
+        num_bits: 1
+      S:
+        direction: inputOutput
+        net_name: "VSS"
+        num_bits: 1
+  X0:
+    lib_name: BAG_prim
+    cell_name: nmos4_lvt
+    instpins:
+      S:
+        direction: inputOutput
+        net_name: "VSS"
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: "vd"
+        num_bits: 1
+      B:
+        direction: inputOutput
+        net_name: "VSS"
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: "vbias"
+        num_bits: 1
+  C0:
+    lib_name: analogLib
+    cell_name: cap
+    instpins:
+      MINUS:
+        direction: inputOutput
+        net_name: "gnd!"
+        num_bits: 1
+      PLUS:
+        direction: inputOutput
+        net_name: "vout"
+        num_bits: 1
